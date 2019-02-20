@@ -1,0 +1,16 @@
+**models and database migrations**
+
+//membuat models sekalian migrasi database setting
+php artisan make:controller namaController -m
+
+//untuk menentukan panjang string ada di folder provider
+appserviceprovider jangan lupa di kasih namespace facadesSchema
+
+//php artisan migrate =>untuk migrasi database
+
+//php artisan tinker =>buat jalanin perintah crud di shell
+
+//php artisan make:controller namacontroller --resource=>untuk membuat controller dengan default untuk settingan database
+	lalu di routes tambahkan Route::resource('namamodel','nama controller')
+
+   
