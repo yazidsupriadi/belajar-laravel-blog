@@ -15,7 +15,7 @@
 	        		<small>Written on {{$post->created_at}}</small>
 	        	</div>
 	        @endforeach
-	        {{$posts->links()}}
+	        
         @else
         	<h1>No post found</h1>
         @endif
